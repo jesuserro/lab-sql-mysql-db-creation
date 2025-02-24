@@ -148,6 +148,11 @@ Here are some instructions to seed your database:
 
 5. There is some sample dummy data for your convenience provided below, but please note that they may not be compatible with your specific database design. It is possible that you may need to modify them to fit the appropriate format.
 
+
+``` sql
+mysql -u root -p car_dealership_company < src/seeding.sql
+```
+
 ### Cars
 
 | id | vin | manufacturer | model | year | color |
